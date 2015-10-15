@@ -9,10 +9,13 @@ import java.util.*;
 import static org.junit.Assert.*;
 
 public class CalculatorMain {
+    //Méthode qui prend deux long en argument et qui retourne l'addition de ces arguments
+
 	public Long add(Long a, Long b) {
 		return a+b;
     }
 	
+	//Méthode qui prend deux long en argument et qui retourne l'addition de ces arguments
 	public Long multiply(Long a, Long b) {
 		return a+b;
     }

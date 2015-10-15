@@ -1,15 +1,13 @@
 package test;
 
-import static org.junit.Assert.*;
 import math.CalculatorMain;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
 public class CalculatorTest {
 	protected CalculatorMain op;
-	
+
 	@Before
 	public void setUp() {
 		op = new CalculatorMain();

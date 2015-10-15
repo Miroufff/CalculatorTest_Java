@@ -1,0 +1,70 @@
+src/math/CalculatorMain.java:3:	Avoid duplicate imports such as 'java.util.Scanner'
+src/math/CalculatorMain.java:11:	headerCommentRequirement Required
+src/math/CalculatorMain.java:12:	Comment is too large: Line too long
+src/math/CalculatorMain.java:14:	Avoid variables with short names like a
+src/math/CalculatorMain.java:14:	Avoid variables with short names like b
+src/math/CalculatorMain.java:14:	Parameter 'a' is not assigned and could be declared final
+src/math/CalculatorMain.java:14:	Parameter 'b' is not assigned and could be declared final
+src/math/CalculatorMain.java:14:	publicMethodCommentRequirement Required
+src/math/CalculatorMain.java:18:	Comment is too large: Line too long
+src/math/CalculatorMain.java:19:	Avoid variables with short names like a
+src/math/CalculatorMain.java:19:	Avoid variables with short names like b
+src/math/CalculatorMain.java:19:	Parameter 'a' is not assigned and could be declared final
+src/math/CalculatorMain.java:19:	Parameter 'b' is not assigned and could be declared final
+src/math/CalculatorMain.java:19:	publicMethodCommentRequirement Required
+src/math/CalculatorMain.java:23:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/math/CalculatorMain.java:23:	Parameter 'args' is not assigned and could be declared final
+src/math/CalculatorMain.java:23:	publicMethodCommentRequirement Required
+src/math/CalculatorMain.java:25:	Avoid variables with short names like sc
+src/math/CalculatorMain.java:25:	Local variable 'sc' could be declared final
+src/math/CalculatorMain.java:28:	System.out.println is used
+src/math/CalculatorMain.java:31:	Local variable 'operation' could be declared final
+src/math/CalculatorMain.java:31:	Potential violation of Law of Demeter (method chain calls)
+src/math/CalculatorMain.java:33:	Avoid variables with short names like x
+src/math/CalculatorMain.java:33:	Found 'DU'-anomaly for variable 'x' (lines '33'-'65').
+src/math/CalculatorMain.java:33:	Local variable 'x' could be declared final
+src/math/CalculatorMain.java:33:	Potential violation of Law of Demeter (method chain calls)
+src/math/CalculatorMain.java:34:	Local variable 'oper' could be declared final
+src/math/CalculatorMain.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/math/CalculatorMain.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/math/CalculatorMain.java:35:	Avoid variables with short names like y
+src/math/CalculatorMain.java:35:	Found 'DU'-anomaly for variable 'y' (lines '35'-'65').
+src/math/CalculatorMain.java:35:	Local variable 'y' could be declared final
+src/math/CalculatorMain.java:35:	Potential violation of Law of Demeter (method chain calls)
+src/math/CalculatorMain.java:38:	Avoid using Literals in Conditional Statements
+src/math/CalculatorMain.java:39:	Avoid variables with short names like z
+src/math/CalculatorMain.java:39:	Local variable 'z' could be declared final
+src/math/CalculatorMain.java:41:	System.out.println is used
+src/math/CalculatorMain.java:41:	The String literal " est:" appears 4 times in this file; the first occurrence is on line 41
+src/math/CalculatorMain.java:41:	The String literal " et " appears 4 times in this file; the first occurrence is on line 41
+src/math/CalculatorMain.java:45:	Avoid using Literals in Conditional Statements
+src/math/CalculatorMain.java:47:	Avoid variables with short names like z
+src/math/CalculatorMain.java:47:	Local variable 'z' could be declared final
+src/math/CalculatorMain.java:49:	System.out.println is used
+src/math/CalculatorMain.java:53:	Avoid using Literals in Conditional Statements
+src/math/CalculatorMain.java:54:	Avoid variables with short names like z
+src/math/CalculatorMain.java:54:	Local variable 'z' could be declared final
+src/math/CalculatorMain.java:56:	System.out.println is used
+src/math/CalculatorMain.java:60:	Avoid using Literals in Conditional Statements
+src/math/CalculatorMain.java:61:	Avoid variables with short names like z
+src/math/CalculatorMain.java:61:	Local variable 'z' could be declared final
+src/math/CalculatorMain.java:63:	System.out.println is used
+src/test/CalculatorTest.java:8:	Each class should declare at least one constructor
+src/test/CalculatorTest.java:8:	headerCommentRequirement Required
+src/test/CalculatorTest.java:9:	Avoid variables with short names like op
+src/test/CalculatorTest.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/test/CalculatorTest.java:9:	fieldCommentRequirement Required
+src/test/CalculatorTest.java:12:	publicMethodCommentRequirement Required
+src/test/CalculatorTest.java:17:	Document empty method body
+src/test/CalculatorTest.java:17:	publicMethodCommentRequirement Required
+src/test/CalculatorTest.java:21:	publicMethodCommentRequirement Required
+src/test/CalculatorTest.java:22:	Avoid variables with short names like a
+src/test/CalculatorTest.java:22:	Local variable 'a' could be declared final
+src/test/CalculatorTest.java:23:	Avoid variables with short names like b
+src/test/CalculatorTest.java:23:	Local variable 'b' could be declared final
+src/test/CalculatorTest.java:27:	JUnit 4 tests that execute tests should use the @Test annotation
+src/test/CalculatorTest.java:27:	publicMethodCommentRequirement Required
+src/test/CalculatorTest.java:28:	Avoid variables with short names like a
+src/test/CalculatorTest.java:28:	Local variable 'a' could be declared final
+src/test/CalculatorTest.java:29:	Avoid variables with short names like b
+src/test/CalculatorTest.java:29:	Local variable 'b' could be declared final
